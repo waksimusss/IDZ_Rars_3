@@ -10,15 +10,15 @@
 	error_name:   	.asciz "Incorrect file name\n"
 	error_read:   	.asciz "Incorrect read operation\n"
 	
-	input_name_1:		.asciz "C:\Users\waksimusss\RISCV\ÈÄÇ3\input1.txt"		# Buffer for file name of input
-	output_name_1:	.asciz "C:\Users\waksimusss\RISCV\ÈÄÇ3\output1.txt"		# Buffer for file name of output
+	input_name_1:		.asciz "input1.txt"		# Buffer for file name of input
+	output_name_1:	.asciz "output1.txt"		# Buffer for file name of output
 	substring1:	.asciz 	"ab"
-	input_name_2:		.asciz "C:\Users\waksimusss\RISCV\ÈÄÇ3\input2.txt"		# Buffer for file name of input
-	output_name_2:	.asciz "C:\Users\waksimusss\RISCV\ÈÄÇ3\output2.txt"		# Buffer for file name of output
+	input_name_2:		.asciz "input2.txt"		# Buffer for file name of input
+	output_name_2:	.asciz "output2.txt"		# Buffer for file name of output
 	substring2:	.asciz 	"A"
-	input_name_3:		.asciz "C:\Users\waksimusss\RISCV\ÈÄÇ3\input3.txt"		# Buffer for file name of input
-	output_name_3:	.asciz "C:\Users\waksimusss\RISCV\ÈÄÇ3\output3.txt"		# Buffer for file name of output
-	substring3:	.asciz 	"bc"
+	input_name_3:		.asciz "input3.txt"		# Buffer for file name of input
+	output_name_3:	.asciz "output3.txt"		# Buffer for file name of output
+	substring3:	.asciz 	"B"
 	
 	input:      		.space TEXT_SIZE		# Input buffer
 	output:      	.space TEXT_SIZE		# Output buffer
