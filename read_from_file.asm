@@ -1,9 +1,3 @@
-# Read data from a file
-
-# Arguments
-# a0 - pointer to file_name
-# Returns
-# a6 - pointer to the beginning of the string from the file in memory
 .include "macro-syscalls.asm"
 
 .global read_from_file
