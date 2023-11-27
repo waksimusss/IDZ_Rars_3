@@ -1,8 +1,3 @@
-# Write data to a file
-
-# Arguments
-# a2 - pointer to the result string
-# a0 - pointer to file_name_out
 .include "macro-syscalls.asm"
 
 .global write_to_file
