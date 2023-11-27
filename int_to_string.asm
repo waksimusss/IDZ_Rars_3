@@ -1,9 +1,3 @@
-# Function for converting a number to a string
-
-# a0 - pointer to the buffer for the reversed string
-# a1 - pointer to the number
-# a2 - pointer to the buffer for the result string
-
 .global int_to_string
 int_to_string:
     mv t0, a0              # Save the pointer to the buffer for the reversed string
